@@ -54,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
+            <a class="navbar-brand logo-image" href="index.html" ><img src="<?php echo base_url();?>template/landing/images/logo.svg" alt="alternative"></a>
             
             <!-- Mobile Menu Toggle Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,7 +116,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-lg-6 col-xl-7">
                         <div class="image-container">
                             <div class="img-wrapper">
-                                <img class="img-fluid" src="images/header-software-app.png" alt="alternative">
+                                <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/header-software-app.png" alt="alternative">
                             </div> <!-- end of img-wrapper -->
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
@@ -139,22 +139,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="swiper-container image-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/customer-logo-1.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-2.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/customer-logo-2.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-3.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/customer-logo-3.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-4.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/customer-logo-4.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-5.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/customer-logo-5.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-6.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/customer-logo-6.png" alt="alternative">
                                 </div>
                             </div> <!-- end of swiper-wrapper -->
                         </div> <!-- end of swiper container -->
@@ -183,7 +183,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/description-1.png" alt="alternative">
+                            <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/description-1.png" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Lists Builder</h4>
@@ -195,7 +195,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/description-2.png" alt="alternative">
+                            <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/description-2.png" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Campaign Tracker</h4>
@@ -207,7 +207,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/description-3.png" alt="alternative">
+                            <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/description-3.png" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Analytics Tool</h4>
@@ -258,7 +258,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="image-container">
-                                        <img class="img-fluid" src="images/features-1.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/features-1.png" alt="alternative">
                                     </div> <!-- end of image-container -->
                                 </div> <!-- end of col -->
                                 <div class="col-lg-6">
@@ -291,7 +291,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="image-container">
-                                        <img class="img-fluid" src="images/features-2.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/features-2.png" alt="alternative">
                                     </div> <!-- end of image-container -->
                                 </div> <!-- end of col -->
                                 <div class="col-lg-6">
@@ -324,7 +324,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="image-container">
-                                        <img class="img-fluid" src="images/features-3.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/features-3.png" alt="alternative">
                                     </div> <!-- end of image-container -->
                                 </div> <!-- end of col -->
                                 <div class="col-lg-6">
@@ -370,7 +370,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
                 <div class="col-lg-8">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-lightbox.png" alt="alternative">
+                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/details-lightbox.png" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -412,7 +412,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
                 <div class="col-lg-8">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-lightbox.png" alt="alternative">
+                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/details-lightbox.png" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -454,7 +454,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
                 <div class="col-lg-8">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-lightbox.png" alt="alternative">
+                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/details-lightbox.png" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -514,7 +514,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details.png" alt="alternative">
+                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/details.png" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -533,7 +533,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="image-container">
                         <div class="video-wrapper">
                             <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
-                                <img class="img-fluid" src="images/video-image.png" alt="alternative">
+                                <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/video-image.png" alt="alternative">
                                 <span class="video-play-button">
                                     <span></span>
                                 </span>
@@ -679,7 +679,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="image-wrapper">
-                                        <img class="img-fluid" src="images/testimonial-1.jpg" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo base_url();?>template/landing/images/testimonial-1.jpg" alt="alternative">
                                     </div> <!-- end of image-wrapper -->
                                     <div class="text-wrapper">
                                         <div class="testimonial-text">I started to use Tivo with the free trial about a year ago and never stopped since then. It does all the repeating marketing tasks and allows me to focus on core development activities like new product research and design. I love it and recommend it to everyone.</div>
