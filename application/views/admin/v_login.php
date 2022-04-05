@@ -19,14 +19,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>SISINDUK</b></a>
+    <a href="<?php echo base_url();?>template/admin/index2.html"><b>SISINDUK</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
-      <form action="../../index3.html" method="post">
+      <form action="<?php echo base_url();?>home" method="post">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
@@ -54,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-block" href="home">Sign In</button>
           </div>
           <!-- /.col -->
         </div>
