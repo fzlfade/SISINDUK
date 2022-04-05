@@ -23,8 +23,10 @@ class Login extends CI_Controller {
 			);
 
 			if($sebagai == "admin"){
-				$cek = $this->m_data->cek_login->('admin','$where')->num_rows();
-				$data = $this->m_data->cek_login->('admin','$where')->row();
+				$cek = $this->m_data->cek_login('tbl_user','$where')->num_rows();
+
+				$data = $this->m_data->cek_login('tbl_user','$where')->row();
+				
 				if($cek > 0) {
 					$data_session = array(
 						'id' => $data->id,
@@ -34,14 +36,15 @@ class Login extends CI_Controller {
 
 					$this->session->set_userdata($data_session);
 
-					redirect (base url().'admin');
+					redirect (base_url().'admin');
 				}else{
 					redirect(base_url().'login?alert=gagal');
 				}
 
 			}elseif ($sebagai == "petugas") {
-				$cek = $this->m_data->cek_login('petugas',$where)->num_rows();
-				$data = $this->m_data->cek_login('petugas',$where)->row();
+				$cek = $this->m_data->cek_login('tbl_user',$where)->num_rows();
+
+				$data = $this->m_data->cek_login('tbl_user',$where)->row();
 
 				if($cek > 0) {
 					$data_session = array(
@@ -52,7 +55,7 @@ class Login extends CI_Controller {
 
 					$this->session->set_userdata($data_session);
 
-					redirect (base url().'petugas');
+					redirect (base_url().'petugas');
 				}else{
 					redirect(base_url().'login?alert=gagal');
 				}
@@ -62,4 +65,3 @@ class Login extends CI_Controller {
 			}
 		}
 	}	
-}
