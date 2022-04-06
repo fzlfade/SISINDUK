@@ -13,7 +13,7 @@
           <img src="<?php echo base_url();?>template/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Ambatukam</a>
+          <a href="#" class="d-block">SISINDUK</a>
         </div>
       </div>
 
