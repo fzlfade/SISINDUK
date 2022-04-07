@@ -32,6 +32,15 @@
 							</p>
 						</a>
 					</li>
+					<li class="nav-item">
+						<a href="<?php echo base_url();?>template/admin/pages/forms/validation.html" class="nav-link">
+							<i class="nav-icon fas fa-edit"></i>
+							<p>
+								Validation
+								
+							</p>
+						</a>
+					</li>
 				 
 					
 					<li class="nav-item">
@@ -42,32 +51,6 @@
 								
 							</p>
 						</a>
-						<ul class="nav nav-treeview">
-							<li class="nav-item">
-								<a href="<?php echo base_url();?>template/admin/pages/forms/general.html" class="nav-link">
-									<i class="far fa-circle nav-icon"></i>
-									<p>General Elements</p>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="<?php echo base_url();?>template/admin/pages/forms/advanced.html" class="nav-link">
-									<i class="far fa-circle nav-icon"></i>
-									<p>Advanced Elements</p>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="<?php echo base_url();?>template/admin/pages/forms/editors.html" class="nav-link">
-									<i class="far fa-circle nav-icon"></i>
-									<p>Editors</p>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="<?php echo base_url();?>template/admin/pages/forms/validation.html" class="nav-link">
-									<i class="far fa-circle nav-icon"></i>
-									<p>Validation</p>
-								</a>
-							</li>
-						</ul>
 					</li>
 					<li class="nav-item">
 						<a href="<?php echo base_url();?>template/admin/pages/tables/data.html" class="nav-link">
