@@ -13,7 +13,7 @@
 					<img src="<?php echo base_url();?>template/admin/dist/img/george.png" class="img-circle elevation-2" alt="User Image">
 				</div>
 				<div class="info">
-					<a href="#" class="d-block">Faizal Pria Mahal</a>
+					<a href="#" class="d-block">Vadhio Rapunzel</a>
 				</div>
 			</div>
 
@@ -26,7 +26,7 @@
 							 with font-awesome or any other icon font library -->
 					<li class="nav-item menu-open">
 						<a href="#" class="nav-link active">
-							<i class="nav-icon fas fa-tachometer-alt"></i>
+							<i class="nav-icon fas fa-th"></i>
 							<p>
 								Dashboard
 							</p>
@@ -34,7 +34,7 @@
 					</li>
 					<li class="nav-item">
 						<a href="<?php echo base_url();?>template/admin/pages/forms/validation.html" class="nav-link">
-							<i class="nav-icon fas fa-edit"></i>
+							<i class="nav-icon fas fa-check"></i>
 							<p>
 								Validation
 								
@@ -62,6 +62,15 @@
 						</a>
 					</li>
 
+					<li class="nav-item">
+						<a href="<?php echo base_url('User');?>" class="nav-link active">
+							<i class="nav-icon fas fa-users"></i>
+							<p>
+								User
+								
+							</p>
+						</a>
+					</li>
 					
 				</ul>
 			</nav>
