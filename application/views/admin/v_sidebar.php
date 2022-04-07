@@ -13,7 +13,7 @@
 					<img src="<?php echo base_url();?>template/admin/dist/img/george.png" class="img-circle elevation-2" alt="User Image">
 				</div>
 				<div class="info">
-					<a href="#" class="d-block">Vadhio Rapunzel</a>
+					<a href="#" class="d-block">Ir.H.Drs.Vadhio Ramdanu M.pd S.pd D.pd</a>
 				</div>
 			</div>
 
@@ -25,7 +25,7 @@
 					<!-- Add icons to the links using the .nav-icon class
 							 with font-awesome or any other icon font library -->
 					<li class="nav-item menu-open">
-						<a href="#" class="nav-link active">
+						<a href="#" class="nav-link">
 							<i class="nav-icon fas fa-th"></i>
 							<p>
 								Dashboard
@@ -33,7 +33,7 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="<?php echo base_url();?>template/admin/pages/forms/validation.html" class="nav-link">
+						<a href="<?php echo base_url('Validation');?>" class="nav-link">
 							<i class="nav-icon fas fa-check"></i>
 							<p>
 								Validation
@@ -63,7 +63,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a href="<?php echo base_url('User');?>" class="nav-link active">
+						<a href="<?php echo base_url('User');?>" class="nav-link">
 							<i class="nav-icon fas fa-users"></i>
 							<p>
 								User
