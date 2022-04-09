@@ -5,7 +5,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Boku No Pictures</h1>
+            <h1>User</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -53,7 +53,7 @@
                       </td>
                       <td><span class="badge bg-danger"><?php echo $a->last_login;?></span></td>
                       <td><span class="badge bg-danger"><?php echo $a->last_logout;?></span></td>
-                      <td>Edit | Hapus</td>
+                      <td align="center">Edit|Hapus</td>
                     </tr>
                     <?php
                       }
