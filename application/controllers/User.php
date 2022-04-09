@@ -20,10 +20,12 @@ class User extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['user'] = $this->m_data->get_data('tbl_user')->result();
+		$data['judul'] = 'bukuinduk';
 		$this->load->view('admin/v_header');
 		$this->load->view('admin/v_navbar');
 		$this->load->view('admin/v_sidebar');
-		$this->load->view('admin/v_user');
+		$this->load->view('admin/v_user',$data);
 		$this->load->view('admin/v_footer');
 	}
 }

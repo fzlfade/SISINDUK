@@ -95,6 +95,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <span class="nav-item">
                     <a class="btn-outline-sm" href="login">LOG IN</a>
                 </span>
+                <span class="nav-item">
+                    <a class="btn-outline-sm" href="login">SIGN UP</a>
+                </span>
             </div>
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->

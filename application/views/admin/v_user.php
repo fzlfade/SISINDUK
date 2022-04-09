@@ -36,53 +36,29 @@
                       <th>Status</th>
                       <th style="width: 400px">Last Login</th>
                       <th style="width: 400px">Last Logout</th>
+                      <th>Action</th>
                     </tr>
                   </thead>
                   <tbody>
+                    <?php
+                      $No = 1;
+                      foreach ($user as $a) {
+                    ?>
                     <tr>
-                      <td>1.</td>
-                      <td>Update software</td>
+                      <td><?php echo $No; ?> </td>
+                      <td><?php echo $a->username;?> </td>
                       <td>
-                        <div class="progress progress-xs">
-                          <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                          <div class="progress-bar progress-bar-danger"><?php echo $a->level;?></div>
                         </div>
                       </td>
-                      <td><span class="badge bg-danger">55%</span></td>
-                      <td><span class="badge bg-danger">55%</span></td>
+                      <td><span class="badge bg-danger"><?php echo $a->last_login;?></span></td>
+                      <td><span class="badge bg-danger"><?php echo $a->last_logout;?></span></td>
+                      <td>Edit | Hapus</td>
                     </tr>
-                    <tr>
-                      <td>2.</td>
-                      <td>Clean database</td>
-                      <td>
-                        <div class="progress progress-xs">
-                          <div class="progress-bar bg-warning" style="width: 70%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-warning">70%</span></td>
-                      <td><span class="badge bg-danger">55%</span></td>
-                    </tr>
-                    <tr>
-                      <td>3.</td>
-                      <td>Cron job running</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-primary" style="width: 30%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-primary">30%</span></td>
-                      <td><span class="badge bg-danger">55%</span></td>
-                    </tr>
-                    <tr>
-                      <td>4.</td>
-                      <td>Fix and squish bugs</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-success" style="width: 90%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-success">90%</span></td>
-                      <td><span class="badge bg-danger">55%</span></td>
-                    </tr>
+                    <?php
+                      }
+                    ?>
+                    
                   </tbody>
                 </table>
               </div>
