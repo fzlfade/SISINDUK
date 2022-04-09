@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Validation extends CI_Controller {
+class Form extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -23,7 +23,7 @@ class Validation extends CI_Controller {
 		$this->load->view('admin/v_header');
 		$this->load->view('admin/v_navbar');
 		$this->load->view('admin/v_sidebar');
-		$this->load->view('admin/v_validation');
+		$this->load->view('admin/v_form');
 		$this->load->view('admin/v_footer');
 	}
 }

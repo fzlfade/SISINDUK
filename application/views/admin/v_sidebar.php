@@ -25,44 +25,23 @@
 					<!-- Add icons to the links using the .nav-icon class
 							 with font-awesome or any other icon font library -->
 					<li class="nav-item menu-open">
-						<a href="#" class="nav-link">
+						<a href="<?php echo base_url('Home');?>" class="nav-link">
 							<i class="nav-icon fas fa-th"></i>
 							<p>
 								Dashboard
 							</p>
 						</a>
 					</li>
-					<li class="nav-item">
-						<a href="<?php echo base_url('Validation');?>" class="nav-link">
-							<i class="nav-icon fas fa-check"></i>
+					<li class="nav-item menu-open">
+						<a href="<?php echo base_url('Form');?>" class="nav-link">
+							<i class="nav-icon fas fa-folder"></i>
 							<p>
-								Validation
+								Form
 								
 							</p>
 						</a>
 					</li>
-				 
-					
-					<li class="nav-item">
-						<a href="#" class="nav-link">
-							<i class="nav-icon fas fa-edit"></i>
-							<p>
-								Forms
-								
-							</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="<?php echo base_url();?>template/admin/pages/tables/data.html" class="nav-link">
-							<i class="nav-icon fas fa-table"></i>
-							<p>
-								Tables
-								
-							</p>
-						</a>
-					</li>
-
-					<li class="nav-item">
+					<li class="nav-item menu-open">
 						<a href="<?php echo base_url('User');?>" class="nav-link">
 							<i class="nav-icon fas fa-users"></i>
 							<p>
@@ -70,7 +49,7 @@
 								
 							</p>
 						</a>
-					</li>
+					</li>					
 					
 				</ul>
 			</nav>
