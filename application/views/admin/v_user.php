@@ -32,8 +32,8 @@
                   <thead>
                     <tr>
                       <th style="width: 10px">No</th>
-                      <th style="width: 500px">Username</th>
-                      <th>Status</th>
+                      <th style="width: 200px">Username</th>
+                      <th>Level</th>
                       <th style="width: 400px">Last Login</th>
                       <th style="width: 400px">Last Logout</th>
                       <th>Action</th>
@@ -48,7 +48,7 @@
                       <td><?php echo $No; ?> </td>
                       <td><?php echo $a->username;?> </td>
                       <td>
-                          <div><?php echo $a->level;?></div>
+                        <div><?php echo $a->level;?></div>
                         </div>
                       </td>
                       <td><?php echo $a->last_login;?></span></td>

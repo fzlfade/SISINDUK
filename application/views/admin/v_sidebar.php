@@ -10,10 +10,10 @@
 			<!-- Sidebar user panel (optional) -->
 			<div class="user-panel mt-3 pb-3 mb-3 d-flex">
 				<div class="image">
-					<img src="<?php echo base_url();?>template/admin/dist/img/george.png" class="img-circle elevation-2" alt="User Image">
+					<img src="<?php echo base_url();?>template/admin/dist/img/avatar4.png" class="img-circle elevation-2" alt="User Image">
 				</div>
 				<div class="info">
-					<a href="#" class="d-block">Ir.H.Drs.Vadhio Ramdanu M.pd S.pd D.pd</a>
+					<a href="#" class="d-block">Unknown</a>
 				</div>
 			</div>
 
