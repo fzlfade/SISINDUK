@@ -27,7 +27,9 @@
                 <h3 class="card-title">Bordered Table</h3>
               </div>
               <!-- /.card-header -->
+
               <div class="card-body">
+                 <a href="<?php echo base_url('user/user_tambah');?>" class='btn btn-sm btn-success pull-right'><i class="fa fa-plus"></i> User Baru</a>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
@@ -45,7 +47,7 @@
                       foreach ($user as $a) {
                     ?>
                     <tr>
-                      <td><?php echo $No; ?> </td>
+                      <td><?php echo $No++; ?> </td>
                       <td><?php echo $a->username;?> </td>
                       <td>
                         <div><?php echo $a->level;?></div>
@@ -53,7 +55,7 @@
                       </td>
                       <td><?php echo $a->last_login;?></span></td>
                       <td><?php echo $a->last_logout;?></span></td>
-                      <td><a href="" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
+                      <td><a href="<?php echo base_url('admin/v_user_edit');?>" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
                       <td><a href="" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
                     </tr>
                     <?php
