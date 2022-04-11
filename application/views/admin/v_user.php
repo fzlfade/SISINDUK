@@ -5,12 +5,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Boku No Pictures</h1>
+            <h1>User</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Simple Tables</li>
+              <li class="breadcrumb-item active">User</li>
             </ol>
           </div>
         </div>
@@ -48,12 +48,13 @@
                       <td><?php echo $No; ?> </td>
                       <td><?php echo $a->username;?> </td>
                       <td>
-                          <div class="progress-bar progress-bar-danger"><?php echo $a->level;?></div>
+                          <div><?php echo $a->level;?></div>
                         </div>
                       </td>
-                      <td><span class="badge bg-danger"><?php echo $a->last_login;?></span></td>
-                      <td><span class="badge bg-danger"><?php echo $a->last_logout;?></span></td>
-                      <td>Edit | Hapus</td>
+                      <td><?php echo $a->last_login;?></span></td>
+                      <td><?php echo $a->last_logout;?></span></td>
+                      <td><a href="" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
+                      <td><a href="" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
                     </tr>
                     <?php
                       }
