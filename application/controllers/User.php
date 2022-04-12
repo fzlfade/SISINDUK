@@ -39,7 +39,7 @@ class User extends CI_Controller {
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'user');
 
-<<<<<<< HEAD
+
 	}
 
 	function user_edit($id){
@@ -70,7 +70,5 @@ class User extends CI_Controller {
 		redirect(base_url().'user');
 	}
 		// akhir CRUD petugas
-=======
+
 	}	
->>>>>>> 19a0ef330c3210b712b6473fbbd7aba47a1e8992
-}
