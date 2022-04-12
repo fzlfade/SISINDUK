@@ -54,8 +54,6 @@ class User extends CI_Controller {
 		
 		}
 	
-
-
 	function user_hapus($id){
 
 		//mendapatkan parameter dari tombol klik
@@ -72,8 +70,34 @@ class User extends CI_Controller {
 	}
 		// akhir CRUD petugas
 
-	}	
-<<<<<<< HEAD
+	function user_update(){
+		$id = $this->input->post('id');
+		$username = $this->input->post('username');
+		$password = $this->input->post('password');
+		$level = $this->input->post('level');
+		$where = array(
+		'id_user' => $id
+		);
+		// cek apakah form password di isi atau tidak
+		if($password==""){
+		$data = array(
+		'username' => $username,
+		'password' => md5 ($password),
+		'level' => $level
+		);
+		// update data ke database
+		$this->m_data->update_data($where,$data,'tbl_user');
+		}else{
+		$data = array(
+		'username' => $username,
+		'password' => md5($password),
+		'level' => $level
+		);
+		// update data ke database
+		$this->m_data->update_data($where,$data,'tbl_user');
+		}
+		// mengalihkan halaman ke halaman data petugas
+		redirect(base_url().'user');
+		}
 
-=======
->>>>>>> f4b2b7e448006bb92b9357db947ac20f535f0836
+	}	
