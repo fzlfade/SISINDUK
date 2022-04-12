@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-lg-6 col-xl-5">
                         <div class="text-container">
-                            <h1>SaaS App HTML Landing Page</h1>
-                            <p class="p-large">Use Tivo to automate your marketing actions in order to reach a much larger audience</p>
+                            <h1>SISINDUK</h1>
+                            <p class="p-large">Siswa Buku Induk untuk Siswa dari Siswa</p>
                             <a class="btn-solid-lg page-scroll" href="sign-up.html">SIGN UP</a>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
@@ -29,8 +29,8 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-col first">
-                        <h4>Faizal Desta N</h4>
-                        <p class="p-small">Orang Ancrit</p>
+                        <h4>Faizal Deshta Nugraha</h4>
+                        <p class="p-small">Orang Ganteng69</p>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-4">
