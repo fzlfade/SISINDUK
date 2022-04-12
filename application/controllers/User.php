@@ -52,4 +52,21 @@ class User extends CI_Controller {
 		$this->load->view('admin/v_footer');
 
 	}
+
+
+	function user_hapus($id){
+
+		//mendapatkan parameter dari tombol klik
+		$id_user=$this->uri->segment(3);
+		$where = array(
+		'id_user' => $id_user
+		);
+
+		// menghapus data petugas dari database sesuai id
+		$this->m_data->delete_data($where,'tbl_user');
+
+		// mengalihkan halaman ke halaman data petugas
+		redirect(base_url().'user');
+	}
+		// akhir CRUD petugas
 }
