@@ -39,17 +39,5 @@ class User extends CI_Controller {
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'user');
 
-	}
-
-	function user_edit($id){
-		$where = array('id' => $id);
-		// mengambil data dari database sesuai id
-		$data['tbl_user'] = $this->m_data->edit_data($where,'tbl_user')->result();
-		$this->load->view('admin/v_header');
-		$this->load->view('admin/v_navbar');
-		$this->load->view('admin/v_sidebar');
-		$this->load->view('admin/v_user_edit',$data);
-		$this->load->view('admin/v_footer');
-
-	}
+	}	
 }
