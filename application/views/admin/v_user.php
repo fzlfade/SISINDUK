@@ -55,13 +55,9 @@
                       </td>
                       <td><?php echo $a->last_login;?></span></td>
                       <td><?php echo $a->last_logout;?></span></td>
-<<<<<<< HEAD
-                      <td><a href="<?php echo base_url('User/v_user_edit');?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
+
+                      <td><a href="<?php echo base_url('User/user_edit/'.$a->id_user);?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
                       <td><a href="<?php echo base_url('User/user_hapus/'.$a->id_user); ?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
-=======
-                      <td><a href="<?php echo base_url('admin/v_user_edit');?> " class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
-                      <td><a href="" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
->>>>>>> 19a0ef330c3210b712b6473fbbd7aba47a1e8992
                     </tr>
                     <?php
                       }
