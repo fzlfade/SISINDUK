@@ -24,12 +24,12 @@
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Bordered Table</h3>
+                <h3 class="card-title">Tabel User</h3>
               </div>
               <!-- /.card-header -->
 
               <div class="card-body" align="left">
-                <a href="<?php echo base_url('user/user_tambah');?>" class='btn btn-sm btn-success pull-right'><i class="fa fa-plus"></i> User Baru</a>
+                <a href="<?php echo base_url('user/user_tambah');?>" class='btn btn-sm btn-success pull-right'><i class="fa fa-plus"></i>  User Baru</a>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
@@ -58,7 +58,10 @@
 
                       <td><a href="<?php echo base_url('User/user_edit/'.$a->id_user);?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
                       <td><a href="<?php echo base_url('User/user_hapus/'.$a->id_user); ?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 710b717998a559889254bb6efcb2007689f065fd
                     </tr>
                     <?php
                       }

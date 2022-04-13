@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container-fluid">
         <div class="row">
           <!-- left column -->
-          <div class="col-md-6">
+          <div class="col-md-12">
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
@@ -31,22 +31,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form method="POST" action="<?php echo base_url('User/aksi_tambah');?>">
+              <form method="POST" action="<?php echo base_url('User/user_update');?>">
+                <input type="hidden" name="id" value="<?php echo $user->id_user;?>">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="username" placeholder="Enter email" value="<?php echo $user->username;?>">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" value="<?php echo $user->password;?>">
                   </div>
+
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-2">
                       <!-- select -->
                       <div class="form-group">
                         <label>Level</label>
                         <select name="level" class="custom-select">
+                          <option value="<?php echo $user->level;?>"><?php echo $user->level;?></option>
                           <option>Admin</option>
                           <option>Guru</option>
                           <option>Petugas</option>

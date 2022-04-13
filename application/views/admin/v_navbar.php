@@ -49,5 +49,9 @@
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="landing" class="nav-link">LOG OUT</a>
+      </li>
+
     </ul>
   </nav>
