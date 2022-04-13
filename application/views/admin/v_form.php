@@ -19,11 +19,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!-- Main content -->
-    <section class="content">
+    <section class="content" >
       <div class="container-fluid">
         <div class="row">
           <!-- left column -->
-          <div class="col-md-6">
+          <div class="col-md-12">
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form method="POST" action="<?php echo base_url('User/aksi_tambah');?>">
+              <form method="POST" action="<?php echo base_url('User/aksi_tambah');?>" >
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
