@@ -70,6 +70,10 @@ class User extends CI_Controller {
 	}
 		// akhir CRUD petugas
 
+<<<<<<< HEAD
+	}	
+
+=======
 	function user_update(){
 		$id = $this->input->post('id');
 		$username = $this->input->post('username');
@@ -101,3 +105,4 @@ class User extends CI_Controller {
 		}
 
 	}	
+>>>>>>> 710b717998a559889254bb6efcb2007689f065fd

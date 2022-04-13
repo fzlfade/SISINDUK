@@ -59,6 +59,10 @@
 
                       <td><a href="<?php echo base_url('User/user_edit/'.$a->id_user);?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
                       <td><a href="<?php echo base_url('User/user_hapus/'.$a->id_user); ?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 710b717998a559889254bb6efcb2007689f065fd
                     </tr>
                     <?php
                       }
