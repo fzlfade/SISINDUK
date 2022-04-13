@@ -46,7 +46,7 @@ class User extends CI_Controller {
 		$id=$this->uri->segment(3);
 		$where = array('id_user' => $id);
 		// mengambil data dari database sesuai id
-		$data['tbl_user'] = $this->m_data->edit_data($where,'tbl_user')->result();
+		$data['user'] = $this->m_data->edit_data($where,'tbl_user')->row();
 		$this->load->view('admin/v_header');
 		$this->load->view('admin/v_sidebar');
 		$this->load->view('admin/v_user_edit',$data);
