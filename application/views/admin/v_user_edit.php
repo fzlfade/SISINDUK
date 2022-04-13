@@ -32,15 +32,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <!-- /.card-header -->
               <!-- form start -->
               <form method="POST" action="<?php echo base_url('User/user_update');?>">
-                <input type="hidden" name="id" value="<?php echo $User->id_user;?>">
+                <input type="hidden" name="id" value="<?php echo $a->id_user;?>">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email" value="<?php echo $User->email;?>">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email" value="<?php echo $a->email;?>">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" value="<?php echo $User->password;?>">
+                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" value="<?php echo $a->password;?>">
                   </div>
 
                   <div class="row">
@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <div class="form-group">
                         <label>Level</label>
                         <select name="level" class="custom-select">
-                          <option value="<?php echo $User->level;?>"><?php echo $user->level;?></option>
+                          <option value="<?php echo $a->level;?>"><?php echo $user->level;?></option>
                           <option>Admin</option>
                           <option>Guru</option>
                           <option>Petugas</option>
