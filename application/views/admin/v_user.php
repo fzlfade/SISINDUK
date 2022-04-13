@@ -28,8 +28,9 @@
               </div>
               <!-- /.card-header -->
 
-              <div class="card-body" align="left">
-                <a href="<?php echo base_url('user/user_tambah');?>" class='btn btn-sm btn-success pull-right'><i class="fa fa-plus"></i>  User Baru</a>
+              <div class="card-body" align="top">
+                <a href="<?php echo base_url('user/user_tambah');?>" class='btn btn-sm btn-success pull-right'>
+                <i class="fa fa-plus"></i>  User Baru</a>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
