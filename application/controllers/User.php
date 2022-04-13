@@ -73,7 +73,4 @@ class User extends CI_Controller {
 		// akhir CRUD petugas
 
 	}	
-<<<<<<< HEAD
 
-=======
->>>>>>> f4b2b7e448006bb92b9357db947ac20f535f0836
