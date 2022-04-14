@@ -70,10 +70,15 @@ class User extends CI_Controller {
 	}
 		// akhir CRUD petugas
 
-<<<<<<< HEAD
+	function logout(){
+		$this->session->sess_destroy();
+		redirect(base_url('landing').'login/?alert=logout');
+		
+		}
+
+
 	}	
 
-=======
 	function user_update(){
 		$id = $this->input->post('id');
 		$username = $this->input->post('username');
@@ -102,7 +107,4 @@ class User extends CI_Controller {
 		}
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'user');
-		}
-
-	}	
->>>>>>> 710b717998a559889254bb6efcb2007689f065fd
+		}	

@@ -50,7 +50,7 @@
         </a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="landing" class="nav-link">LOG OUT</a>
+        <a href="<?php echo base_url().'landing' ?>" class="btn btn-outline-dark ml1"><i class="fa fa-power-off"></i> LOG OUT</a>
       </li>
 
     </ul>

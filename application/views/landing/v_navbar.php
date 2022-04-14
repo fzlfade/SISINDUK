@@ -17,7 +17,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="" ><img src="<?php echo base_url();?>template/landing/images/sisinduk.png" alt="alternative" width="1"></a>
+            <a class="navbar-brand logo-image" href="" ><img src="<?php echo base_url();?>template/landing/images/sisinduk.png" alt="alternative"></a>
             
             <!-- Mobile Menu Toggle Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
