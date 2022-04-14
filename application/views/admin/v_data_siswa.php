@@ -50,9 +50,13 @@
                     </select>
                   </div>
                   <div class="form-group" class="col-sm-6">
-                    <label for="exampleInputPassword1">Tempat Tanggal Lahir</label>
-                    <input type="password" name="password" class="form-control col-sm-4" id="exampleInputPassword1"><br><input type="password" name="password" class="form-control col-sm-6" id="exampleInputPassword1">
+                    <label for="exampleInputPassword1">Tempat Lahir</label>
+                    <input type="password" name="password" class="form-control col-sm-4" id="exampleInputPassword1">
                   </div>
+                  <div>
+                    <label for="exampleInputPassword1">Tanggal Lahir</label>
+                    <input type="password" name="password" class="form-control col-sm-6" id="exampleInputPassword1">
+                   </div> 
                   <div class="form-group">
                     <label for="exampleInputPassword1">Jurusan</label>
                     <input type="password" name="password" class="form-control col-sm-8" id="exampleInputPassword1">
@@ -67,7 +71,7 @@
                       <option>Katolik</option>
                       <option>Buddha</option>
                       <option>Hindu</option>
-                      <option>Kong Hu Chu</option>
+                      <option>Kong Hu Cu</option>
                     </select>
                   </div>
                   <div class="form-group">
@@ -81,30 +85,6 @@
                   <div class="form-group">
                     <label for="exampleInputPassword1">Kewarganegaraan</label>
                     <input type="password" name="password" class="form-control col-sm-6" id="exampleInputPassword1">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Anak Ke</label>
-                    <input type="password" name="password" class="form-control col-sm-1" id="exampleInputPassword1">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Jumlah Saudara Tiri</label>
-                    <input type="password" name="password" class="form-control col-sm-1" id="exampleInputPassword1">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Status Kewarnegaran</label>
-                    <input type="password" name="password" class="form-control col-sm-6" id="exampleInputPassword1">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Jarak Rumah Ke Sekolah</label>
-                    <input type="password" name="password" class="form-control col-sm-1" id="exampleInputPassword1">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Keterangan Tinggal</label>
-                    <input type="password" name="password" class="form-control col-sm-4" id="exampleInputPassword1">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Bahasa Sehari-Hari</label>
-                    <input type="password" name="password" class="form-control col-sm-4" id="exampleInputPassword1">
                   </div>
                 </div>
                 <!-- /.card-body -->
