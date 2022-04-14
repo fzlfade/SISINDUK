@@ -44,6 +44,15 @@
 								
 							</p>
 						</a>
+					</li>
+					<li class="nav-item menu-open">
+						<a href="<?php echo base_url('Data');?>" class="nav-link">
+							<i class="nav-icon fas fa-book"></i>
+							<p>
+								Data Siswa
+								
+							</p>
+						</a>
 					</li>					
 				</ul>
 			</nav>
