@@ -9,14 +9,22 @@
                             <p class="p-large">Siswa Buku Induk untuk Siswa dari Siswa</p>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
-                    <!--<div class="col-lg-6 col-xl-7">
+                    <div class="col-lg-10 col-xl-7">
                         <div class="image-container">
                             <div class="img-wrapper">
+<<<<<<< HEAD
                                 <img class="image" src="<?php echo base_url();?>template/landing/images/yoi.jpeg" alt="image">
                             </div> 
                         </div> 
                     </div> -->
                 </div>
+=======
+                                <img width="500" class="img-fluid" src="<?php echo base_url();?>template/landing/images/amano.jpg" alt="alternative">
+                            </div> 
+                        </div> 
+                    </div> <!-- end of col -->  
+                </div> <!-- end of row -->
+>>>>>>> b0eacc32c51f83728a23b5aa25d01c4ef7d8a9fe
             </div> <!-- end of container -->
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
