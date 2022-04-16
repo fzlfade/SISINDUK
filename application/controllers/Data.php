@@ -20,10 +20,11 @@ class Data extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['data'] = $this->m_data->get_data('tbl_data')->result();
 		$this->load->view('admin/v_header');
 		$this->load->view('admin/v_navbar');
 		$this->load->view('admin/v_sidebar');
-		$this->load->view('admin/v_data_siswa');
+		$this->load->view('admin/v_data_siswa',$data);
 		$this->load->view('admin/v_footer');
 	}
 }

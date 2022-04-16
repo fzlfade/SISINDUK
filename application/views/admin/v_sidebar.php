@@ -27,33 +27,51 @@
 							</p>
 						</a>
 					</li>
-					<li class="nav-item menu-open">
-						<a href="<?php echo base_url('Form');?>" class="nav-link">
-							<i class="nav-icon fas fa-folder"></i>
-							<p>
-								Form
-								
-							</p>
-						</a>
-					</li>
-					<li class="nav-item menu-open">
-						<a href="<?php echo base_url('User');?>" class="nav-link">
-							<i class="nav-icon fas fa-users"></i>
-							<p>
-								User
-								
-							</p>
-						</a>
-					</li>
-					<li class="nav-item menu-open">
-						<a href="<?php echo base_url('Data');?>" class="nav-link">
-							<i class="nav-icon fas fa-book"></i>
-							<p>
-								Data Siswa
-								
-							</p>
-						</a>
-					</li>					
+					<li class="nav-item">
+		            	<a href="#" class="nav-link">
+		              		<i class="nav-icon fas fa-envelope"></i>
+		              		<p>
+		                	Admin
+		                	<i class="fas fa-angle-left right"></i>
+		              		</p>
+		            	</a>
+		            <ul class="nav nav-treeview">
+		              <li class="nav-item">
+		                <a href="Form" class="nav-link">
+		                  <i class="far nav-icon"></i>
+		                  <p>Tambah User</p>
+		                </a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="User" class="nav-link">
+		                  <i class="far nav-icon"></i>
+		                  <p>User</p>
+		                </a>
+		              </li>
+		            </ul>
+		          </li>					
+					<li class="nav-item">
+		            <a href="#" class="nav-link">
+		              <i class="nav-icon fas fa-book"></i>
+		              <p>
+		                Siswa
+		                <i class="fas fa-angle-left right"></i>
+		              </p>
+		            </a>
+		            <ul class="nav nav-treeview">
+		              <li class="nav-item">
+		                <a href="<?php echo base_url('Data');?>" class="nav-link">
+		                  <i class="far nav-icon"></i>
+		                  <p>Input Data Siswa</p>
+		                </a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="#" class="nav-link">
+		                  <i class="far nav-icon"></i>
+		                  <p>Data Siswa</p>
+		                </a>
+		              </li>
+		            </ul>				
 				</ul>
 			</nav>
 			<!-- /.sidebar-menu -->
