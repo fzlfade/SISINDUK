@@ -66,7 +66,7 @@
 		                </a>
 		              </li>
 		              <li class="nav-item">
-		                <a href="<?php echo base_url('Data/data_siswa');?>" class="nav-link">
+		                <a href="<?php echo base_url('Siswa');?>" class="nav-link">
 		                  <i class="far nav-icon"></i>
 		                  <p>Data Siswa</p>
 		                </a>
@@ -74,7 +74,7 @@
 		            </ul>
 		            </li>	
 		           	<li class="nav-item menu-open">
-						<a href="<?php echo base_url('');?>" class="nav-link">
+						<a href="<?php echo base_url('Cetak');?>" class="nav-link">
 							<i class="nav-icon fas fa-edit"></i>
 							<p>
 								Cetak
