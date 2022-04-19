@@ -44,7 +44,7 @@
                     <label for="exampleInputPassword1">Jenis Kelamin</label>
                     <!--<input type="password" name="password" class="form-control col-sm-3" id="exampleInputPassword1">-->
                     <br>
-                    <select name="level" class="custom-select col-sm-5">
+                    <select name="level" class="custom-select col-sm-2">
                       <option>Laki-laki</option>
                       <option>Perempuan</option>
                     </select>
@@ -65,7 +65,7 @@
                     <label for="exampleInputPassword1">Agama</label>
                     <!--<input type="password" name="password" class="form-control col-sm-4" id="exampleInputPassword1">-->
                     <br>
-                    <select name="level" class="custom-select col-sm-5">
+                    <select name="level" class="custom-select col-sm-2">
                       <option>Islam</option>
                       <option>Kristen</option>
                       <option>Katolik</option>

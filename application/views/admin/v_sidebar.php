@@ -50,7 +50,7 @@
 		              </li>
 		            </ul>
 		          </li>					
-					<li class="nav-item">
+				  <li class="nav-item">
 		            <a href="#" class="nav-link">
 		              <i class="nav-icon fas fa-book"></i>
 		              <p>
@@ -66,12 +66,21 @@
 		                </a>
 		              </li>
 		              <li class="nav-item">
-		                <a href="#" class="nav-link">
+		                <a href="<?php echo base_url('Data/data_siswa');?>" class="nav-link">
 		                  <i class="far nav-icon"></i>
 		                  <p>Data Siswa</p>
 		                </a>
 		              </li>
-		            </ul>				
+		            </ul>
+		            </li>	
+		           	<li class="nav-item menu-open">
+						<a href="<?php echo base_url('');?>" class="nav-link">
+							<i class="nav-icon fas fa-edit"></i>
+							<p>
+								Cetak
+							</p>
+						</a>
+					</li>			
 				</ul>
 			</nav>
 			<!-- /.sidebar-menu -->
