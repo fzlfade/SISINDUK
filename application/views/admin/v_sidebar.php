@@ -1,4 +1,4 @@
-<aside class="main-sidebar sidebar-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
 
 		<!-- Sidebar -->
 		<div class="sidebar">
@@ -19,7 +19,7 @@
 				<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 					<!-- Add icons to the links using the .nav-icon class
 							 with font-awesome or any other icon font library -->
-					<li class="nav-item menu-open">
+					<li class="nav-item">
 						<a href="<?php echo base_url('Home');?>" class="nav-link">
 							<i class="nav-icon fas fa-th"></i>
 							<p>
@@ -73,11 +73,11 @@
 		              </li>
 		            </ul>
 		            </li>	
-		           	<li class="nav-item menu-open">
-						<a href="<?php echo base_url('Cetak');?>" class="nav-link">
+		           	<li class="nav-item">
+						<a href="<?php echo base_url('');?>" class="nav-link">
 							<i class="nav-icon fas fa-edit"></i>
 							<p>
-								Cetak
+								Laporan
 							</p>
 						</a>
 					</li>			

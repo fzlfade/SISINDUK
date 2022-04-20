@@ -17,7 +17,7 @@
         <a href="home" class="nav-link"><strong>Home</strong></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link"><strong>Contact</strong></a>
+        <a href="admin/v_contact" class="nav-link"><strong>Contact</strong></a>
       </li>
     </ul>
 

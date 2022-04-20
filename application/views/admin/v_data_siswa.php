@@ -26,7 +26,11 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Data</h3>
+                <h3 class="btn btn-outline-light">Data Siswa</h3>
+                <h3 class="btn btn-outline-light">Data Ortu</h3>
+                <h3 class="btn btn-outline-light">Data ....</h3>
+                <h3 class="btn btn-outline-light">Data ....</h3>
+                <h3 class="btn btn-outline-light">Data ....</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
