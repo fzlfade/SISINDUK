@@ -8,7 +8,7 @@
 					<img src="<?php echo base_url();?>template/admin/dist/img/avatar4.png" class="img-circle elevation-2" alt="User Image">
 				</div>
 				<div class="info">
-					<a href="#" class="d-block">Unknown</a>
+					<a href="#" class="d-block">SISINDUK</a>
 				</div>
 			</div>
 

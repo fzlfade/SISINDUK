@@ -26,8 +26,8 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <div class="card-header">
-                <div class="btn btn-sm btn-outline-light">Data Siswa</div>
-                <div href="<?php echo base_url('Ortu')?>" class="btn btn-sm btn-outline-light">Orang Tua</div>
+                <h3 class="btn btn-sm btn-outline-light">Data Siswa</h3>
+                <h3 class="btn btn-sm btn-outline-light">Orang Tua</h3>
                 <!--<h3 class="btn btn-sm btn-outline-light">Data ....</h3>
                 <h3 class="btn btn-sm btn-outline-light">Data ....</h3>
                 <h3 class="btn btn-sm btn-outline-light">Data ....</h3>-->
